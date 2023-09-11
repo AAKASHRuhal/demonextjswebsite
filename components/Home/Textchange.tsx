@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Textchange = () => {
-  const texts = ["Text 1", "Text 2", "Text 3", "Text 4"];
+  const texts = ["SEO", "Web Design", "Text 3", "Text 4"];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [text, setText] = useState(texts[currentIndex]);
 
